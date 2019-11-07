@@ -106,3 +106,16 @@ A Quick Overview of Swagger-Core Annotations
 @ApiResponse	     -Describes a possible response of an operation.
 @ApiResponses	     -A wrapper to allow a list of multiple ApiResponse objects.
 
+
+
+Converting Swagger JSON document to Java Rest Client
+------------------------------------------------------
+
+https://github.com/swagger-api/swagger-codegen
+
+http://central.maven.org/maven2/io/swagger/swagger-codegen-cli/2.4.9/swagger-codegen-cli-2.4.9.jar
+	
+java -jar swagger-codegen-cli.jar generate \
+  -i http://localhost:8080/swagger2-demo/v2/api-docs.json \
+  -l java \
+  -o samples/client/store/java
