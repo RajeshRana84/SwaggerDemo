@@ -16,8 +16,11 @@ We will use the below technologies for this demo.
 Exposed Rest End-points
 ------------------------
 http://localhost:8080/swagger2-demo/getStudents
+
 http://localhost:8080/swagger2-demo/getStudent/sajal
+
 http://localhost:8080/swagger2-demo/getStudentByCountry/india
+
 http://localhost:8080/swagger2-demo/getStudentByClass/v
 
 
